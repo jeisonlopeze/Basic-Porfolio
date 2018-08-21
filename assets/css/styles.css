@@ -1,0 +1,22 @@
+header{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 200%;
+    background-color: cadetblue;
+    
+}
+
+
+
+
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif
+}
+p{
+    width: 960px;
+}
+    
+nav{
+    font-size: 120%;
+}
