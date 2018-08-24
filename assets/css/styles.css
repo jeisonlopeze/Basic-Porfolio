@@ -1,22 +1,127 @@
-header{
+.wrapper{
+    width: 960px;
+    margin: 0px auto;
+   
+}
+
+.content { 
+    background-color: white;
+    border: solid 1px #dddddd;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#about{
+    color: #4aaaa5;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    font-size: 200%;
-    background-color: cadetblue;
-    
+    border-bottom: 3px solid #ccc;
+    margin: 0;
+    padding-bottom:10px;
+}
+
+#heading{
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+}
+ 
+.clearfix::after{
+     content: "";
+     display: block;
+     clear: both;
 }
 
 
+.Logo{
+    float: left;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color: white;
+    padding: 20px;
+    background-color: #4aaaa5;
+    margin: 0px;
+}
+   nav{
+       padding-top: 30px;
+       text-align: right;
+       font-size: 120%;
+       
+}
+img{
+    padding: 40px;
+    float: left;
+    background-color: white;
+} 
 
+
+ul, li{
+
+    display: inline;
+
+}
+a{
+    color: #ccc
+}
+li{
+    padding-left: 20px;
+}
+footer{
+margin-top: 20px;
+background-color: gray;
+font-size: 12pt;
+text-align: center;
+border-top: solid #4aaaa5 5px;
+color: white;
+padding: 30px 0px;
+}
+
+
+p { line-height: 20pt;
+font-size: 12pt;
+color: gray;
+}
 
 
 body{
     background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    background-image: url("Images/qbkls.png");
+
 }
-p{
-    width: 960px;
-}
+
+.blocks{
+    background-color: #4aaaa5;
     
-nav{
-    font-size: 120%;
+
+    
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+}
+
+#Hangman{
+    float: left;
+    
+   
+    
+}
+
+#RPG{
+    float: left;
+   
+}
+
+#Trivia{
+    float: left;
+}
+
+#Rutgers{
+    float: left;
+}
+
+#Rock{
+    float: left;
 }

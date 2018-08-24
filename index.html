@@ -10,28 +10,46 @@
      
 
 <body>
-    <div class="body">
-
-        <header>Jeison Lopez</header>
-       
+  
+     
+       <div id="heading" class="clearfix"> 
+         <header class="wrapper">
+            <h1 class="Logo">Jeison Lopez</h1>
+            <nav>
+                <ul>
+                      <li ><a href="index.html">About</a></li>
+                      <li ><a href="portfolio.html">Portfolio</a></li>
+                      <li ><a href="contact.html">Contact</a></li>
+                </ul>
+           </nav>
+         </header>
+       </div>   
     
-      <nav>
-           <ul>
-                 <li class="nav"><a href="index.html">About</a></li>
-                 <li class="nav"><a href="portfolio.html">Portfolio</a></li>
-                 <li class="nav"><a href="contact.html">Contact</a></li>
-           </ul>
-      </nav>
-
-             <h1>About Me</h1>
+       <div class="clearfix">
+        <div class="wrapper content">
+             <h1 id="about">About Me</h1>
              
              <img src="data:image/jpeg;base64,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" alt="">
     
            
     
             <p>Mi nombre es Jeison Lopez. Naci en La Habana, Cuba en Octubre de 1989. Me gusta leer, los deportes y la musica. Practique baloncesto, tenis y polo acuatico durante mi juventud. Complete el bachillerato y comence la universidad estudiando ingenieria quimica. En Julio del 2013 me mude a Florida, Estados Unidos con mi familia en busca de mejoras economicas.  </p>
-   </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas libero ac nisl iaculis faucibus. Aenean egestas quam ac ullamcorper ornare. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ex massa, fermentum venenatis lectus fringilla, ultricies ornare tellus. Phasellus et venenatis eros. Curabitur a felis vitae arcu convallis euismod sit amet non urna. Nam et maximus velit, id porttitor lorem. Ut ullamcorper facilisis sem non malesuada. Cras in metus dapibus, tempus nisi vel, semper justo.</p>
 
-       <footer>&copy; Copyright 2018 Jeison Lopez</footer>
+                    <p> Duis eget porta dolor. Mauris ac metus elementum, consequat orci congue, dapibus ex. Quisque ante enim, ornare porta dapibus eget, aliquet non quam. Integer tincidunt luctus ornare. Donec ut nulla ipsum. Duis enim leo, pellentesque in faucibus vel, bibendum vitae risus. Aenean faucibus odio ut magna placerat, eu pretium sem gravida. Aliquam non est vel nisl maximus feugiat. Praesent maximus eget elit eu sollicitudin.</p>
+                    
+                            <p>Cras porttitor scelerisque pretium. Aenean at viverra nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus arcu ante, sollicitudin pretium nulla et, finibus egestas lorem. Sed et lectus id lacus ultrices aliquam vel vel metus. Mauris gravida egestas eros non pellentesque. Morbi laoreet orci sed nulla egestas, sed volutpat dui tincidunt. Integer sit amet orci luctus, cursus dolor in, fermentum elit. Donec facilisis turpis in eros rhoncus fermentum et nec ligula. Donec vel enim vel ex blandit gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        </div>
+    </div>
+
+     <footer>
+        <div class="wrapper">
+
+                <span>&copy; Copyright 2018 </span>
+        </div> 
+       
+        
+    </footer>
+
 </body>
 </html>
