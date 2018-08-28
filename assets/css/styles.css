@@ -1,10 +1,9 @@
 .wrapper{
     width: 960px;
     margin: 0px auto;
-   
 }
 
-.content { 
+.content{ 
     background-color: white;
     border: solid 1px #dddddd;
     padding: 20px;
@@ -31,7 +30,6 @@
      clear: both;
 }
 
-
 .Logo{
     float: left;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
@@ -41,87 +39,83 @@
     background-color: #4aaaa5;
     margin: 0px;
 }
-   nav{
-       padding-top: 30px;
-       text-align: right;
-       font-size: 120%;
-       
-}
-img{
-    padding: 40px;
-    float: left;
-    background-color: white;
-} 
 
+nav{
+    padding-top: 30px;
+    text-align: right;
+    font-size: 120%;
+}
 
 ul, li{
-
     display: inline;
-
 }
+
 a{
     color: #ccc
 }
+
 li{
     padding-left: 20px;
 }
+
 footer{
-margin-top: 20px;
-background-color: gray;
-font-size: 12pt;
-text-align: center;
-border-top: solid #4aaaa5 5px;
-color: white;
-padding: 30px 0px;
+    margin-top: 20px;
+    background-color: gray;
+    font-size: 12pt;
+    text-align: center;
+    border-top: solid #4aaaa5 5px;
+    color: white;
+    padding: 30px 0px;
 }
 
-
-p { line-height: 20pt;
-font-size: 12pt;
-color: gray;
+p{ 
+    line-height: 20pt;
+    font-size: 12pt;
+    color: gray;
 }
-
 
 body{
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px auto;
     background-image: url("Images/qbkls.png");
-
-}
-
-.blocks{
-    background-color: #4aaaa5;
-    
-
-    
 }
 
 .box{
-    width: 400px;
-    height: 400px;
+    float: left;
+    width: 33.33%; 
+    padding: 5px;
 }
 
-#Hangman{
-    float: left;
-    
-   
-    
+.box:hover .image {
+    opacity: 0.6;
+  }
+.text-block{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    padding-top: 0.02px;
+    padding-bottom: 0.02px;
 }
 
-#RPG{
-    float: left;
-   
+h2.imgText{
+    text-align: center;
 }
 
-#Trivia{
-    float: left;
+textarea{
+  border:1px solid #999999;
+  width:100%;
+  margin:5px 0;
+  padding:3px;
 }
 
-#Rutgers{
-    float: left;
+input{
+  border:1px solid #999999;
+  width:100%;
+  margin:5px 0;
+  padding:3px;
 }
 
-#Rock{
-    float: left;
-}
